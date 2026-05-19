@@ -88,6 +88,7 @@ public class Portfolio implements Valuable {
         }
         IO.println("===================================");
         System.out.printf(" %-20s $%10.2f%n", "Net Value: ", getValue());
+        IO.println();
     }
 
 
